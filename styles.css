@@ -76,13 +76,10 @@ button:hover {
 }
 
 .quote-container {
-    width: 80%;
-    margin: 0 auto;
     margin-top: 5rem;
-    background-color: var(--first-color);
-    border-radius: 15px;
-    padding: 1rem;
+    text-align: center;
     opacity: 0;
+    transition: 1s;
 }
 
 #quote {
@@ -93,6 +90,13 @@ button:hover {
 
 #author {
     font-style: italic;
+}
+
+.content {
+    display: inline-block;
+    background-color: var(--first-color);
+    border-radius: 15px;
+    padding: 1rem;
 }
 
 @media (max-width: 1250px) {
